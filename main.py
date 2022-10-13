@@ -21,12 +21,12 @@ async def start_event():
         else:
             print(f"{env_key} is not set")
 
-    print("Kustomize scripts has been executed!")
+    print("Scripts has been executed!")
 
 
 @app.get("/")
 async def root():
-    return {"message": "Hello Kustomize Demo"}
+    return {"message": "Hello Qovery Script Demo"}
 
 
 @app.get("/hello/{name}")

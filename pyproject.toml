@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "kustomize-demo"
+name = "scripts-demo"
 version = "0.1.0"
 description = ""
 authors = ["Romaric Philogène <rphilogene@qovery.com>"]
